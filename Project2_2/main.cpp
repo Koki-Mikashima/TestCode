@@ -24,6 +24,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 	while (ProcessMessage() == 0 && (CheckHitKey(KEY_INPUT_ESCAPE)) == 0)
 	{
 		ClearDrawScreen();
+		DrawBox(0, 0,100,100, 0xffffff, true);
 		ScreenFlip();
 		//OutputDebugStringA();
 	}
