@@ -353,3 +353,6 @@ MigrationBackup/
 /Project2_2/x64/Debug/Project2_2.exe
 /Project2_2/x64/Debug/main.obj
 
+/Project2_2/*.vcxproj
+/Project2_2/*.filters
+/Project2_2/*.user
